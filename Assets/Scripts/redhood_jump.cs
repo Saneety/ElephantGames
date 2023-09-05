@@ -7,11 +7,6 @@ public class redhood_jump : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
-    void Start()
-    {
-        
-    }
-
     private void OnMouseDown()
     {
         animator.Play("redhood_jump");
